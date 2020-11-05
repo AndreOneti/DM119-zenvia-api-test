@@ -8,7 +8,7 @@ axios
   .post('https://api.zenvia.com/v2/channels/sms/messages', {
     from: phoneId,
     to: reciever,
-    contents: [{ type: 'text', text: 'Hello World!' }]
+    contents: [{ type: 'text', text: 'Hello World!\nI\'m a message from api request' }]
   }, {
     headers: { 'X-API-TOKEN': token }
   })

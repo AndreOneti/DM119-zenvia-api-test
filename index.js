@@ -8,7 +8,7 @@ const client = new Client(token);
 
 const sms = client.getChannel('sms');
 
-const content = new TextContent('Hello World!');
+const content = new TextContent('Hello World!\nI\'m a message from zenvia sdk');
 
 sms
   .sendMessage(phoneId, reciever, content)
