@@ -1,6 +1,6 @@
 // Importação das Bibliotecas usadas
 const { Client, TextContent } = require('@zenvia/sdk');
-const dotenv = require('dotenv');
+const dotenv = require('dotenv-safe');
 
 // Carregando as variaveis de ambientes do arquivo .env
 dotenv.config();

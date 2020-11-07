@@ -1,6 +1,6 @@
 // Importação das Bibliotecas usadas
 const axios = require('axios').default;
-const dotenv = require('dotenv');
+const dotenv = require('dotenv-safe');
 
 // Carregando as variaveis de ambientes do arquivo .env
 dotenv.config();
